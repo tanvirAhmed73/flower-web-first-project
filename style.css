@@ -1,0 +1,219 @@
+
+/* ****************FONT************* */
+/* lucida sans font uses for title and btn type text */
+.footer-title, .featured-title, .banner-3-title, .first-banner-title, .btn-primary, .banner-2-title, .instragram, .url-1, .url-2, .url-3, .banner-3-title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* gill sans font uses for paregraph or small text*/
+.copyright, .featured-paragraph, .banner-3-paragraph, .footer-paragraph, .paragraph-one, .banner-2-paragaraph, .section-3-paragraph, .banner-3-paragraph{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* paragraph opacity maserment */
+.section-3-paragraph, .featured-paragraph, .banner-3-paragraph, .banner-2-paragaraph, .paragraph-one{
+    opacity: 60%;
+}
+
+
+
+/* ************HEADER BANNER***************** */
+/* BNNAER style of paragraph + button + title */
+.first-banner-title{
+    margin-bottom: 0cm;
+    text-align: left;
+    font-size: 50px;
+}
+.paragraph-one{
+    text-align: left;
+    font-size: small; 
+}
+.btn-primary{
+    background-color: #E55473;
+    border: 0;
+    border-radius: 6px;
+    padding: 10px 25px 10px 25px;
+    color: aliceblue;
+}
+.banner{
+    background-color: hsl(340, 47%, 91%);
+    /* padding: 30px 150px 30px 150px; */
+    padding: 80px 2px 0px 200px ;
+    display: flex;
+}
+.banner .banner-pic{
+    width: 400px;
+    height: 500px;
+}
+
+
+
+
+/* ********************FOOTER ******************** */
+/* footer decoration */
+.footer-decor{
+    background-color: black;
+    padding: 60px 0px 60px 0px;
+    color: white;
+    text-align: center;
+}
+.flower{
+    color: #E55473;
+}
+.copyright, .footer-paragraph{
+    font-size: small;
+}
+.copyright{
+    color: #7e7c7c;
+}
+
+
+
+/* ***************banner 2 css style */
+.banner-2{
+    background-color: hsl(340, 47%, 91%);
+    width: 100%;
+    margin-top: 60px;  
+    display: flex;  
+}
+.banner-2-code{
+    text-align: center;
+    padding: 100px 0px 150px 200px;
+}
+.banner-2-paragaraph{
+    letter-spacing: .5px;
+}
+.off-color{
+    color: #E55473;
+}
+.banner-2-image{
+    /* width: 200px; */
+    height: 350px;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+
+
+/* *********************section 3 ********/
+.section-3{
+    text-align: center;
+}
+/* ***********************section 4******* */
+.section-4{
+    display: flex;
+    padding:0px 150px ;
+}
+.section-4-image{
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+}
+
+
+/************************************ banner 3 */
+.banner-3-text{
+    background-image: url('flower asset/rectangle 9.png');
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 48vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 120px;
+    margin-bottom: 110px;
+}
+.banner-content{
+    text-align: center;
+    align-items: center;
+}
+.input-box{
+    width: 490px;
+    height: 35px;
+    border-radius: 6px;
+}
+
+
+/* ******************************features section */
+.featured-section{
+    margin-top: 80px;
+    text-align: center;
+}
+.featured-picture{
+    position: relative;
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.image-configer-1{
+    background-color: #eccedd;
+    width: 464;
+    height: 538;
+    margin: 20px;
+    border-radius: 300px 300px 0px 0px;
+}
+.image-configer-2{
+    background-color: #0597A0;
+    width: 464;
+    height: 538;
+    margin: 20px;
+    border-radius: 300px 300px 0px 0px;
+}
+.image-configer-3{
+    background-color: #cbf3a2;
+    width: 464;
+    height: 538;
+    margin: 20px;
+    border-radius: 300px 300px 0px 0px;
+}
+.pic1, .pic2, .pic3{   
+    height: 310px;
+    width: 250px;
+    padding: 90px 50px 0px 50px;
+}
+
+.url-1{
+    padding-left: 240px;
+}
+.url-2{
+    padding-left: 260px;
+}
+.url-3{
+    padding-left: 250px;
+}
+
+
+/* ***********birthday section */
+.birthday-section-content{
+    margin-top: 60px;
+    display: flex;
+    margin-right: 0px;
+    
+}
+.b-title-button{
+    letter-spacing: 5px;
+    text-align: right;
+    padding-top: 80px;
+    padding-left: 180px;
+    padding-right: 50px;
+    background-color: #0597A0;
+}
+.bd-image{
+    margin-left: 60px;
+}
+
+.view-offers-button{
+    background-color: #E55473;
+    border: 0;
+    /* border-radius: 6px; */
+    padding: 10px 40px 10px 40px;
+    color: aliceblue;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    /* margin-right: 120px; */
+    
+}
+
+
